@@ -20,6 +20,13 @@ public class Animal {
         this.peso = peso;
     }
 
+    public void adelgazar(int cantidad){
+        this.peso -= cantidad;
+    }
+    
+    public void engordar(int cantidad){
+        this.peso += cantidad;
+    }
     public String getEspecie() {
         return especie;
     }
